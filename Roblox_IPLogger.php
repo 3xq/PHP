@@ -15,7 +15,7 @@
         curl_setopt( $ch, CURLOPT_HEADER, 0);
         curl_setopt( $ch, CURLOPT_RETURNTRANSFER, 1);
         $response = curl_exec( $ch );
-        echo $response;
+        echo $response; //This can be removed, only there to debug
         curl_close( $ch );
     }
 ?>
